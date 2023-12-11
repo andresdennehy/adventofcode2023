@@ -28,7 +28,6 @@ func main() {
     defer file.Close();
 
     scanner := bufio.NewScanner(file);
-    //var steps int;
     nodes := make(map[string][]string, 0)
 
     scanner.Scan();
